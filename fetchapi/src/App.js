@@ -6,13 +6,14 @@ import download from './download.jpg';
 
 
 function App() {
-  const [users, setUsers] = useState([]);
+
   const filters = e => {
     const search = e.target.value.toLowerCase();
     const filtered = users.filter(users = users.id.toLowerCase(search))
     setUsers(filtered)
   }
   
+  const [users, setUsers] = useState([]);
   
  
   const getData = async () => {

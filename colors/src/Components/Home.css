@@ -1,0 +1,17 @@
+.Header-container{
+    height:200px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+  }
+  .Body-container{
+    text-align: center;
+  }
+
+  .Links{
+    text-align: center;
+  }
+
+  .Links ul{
+    text-decoration: none;
+  }

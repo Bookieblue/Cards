@@ -1,0 +1,41 @@
+body {
+  background-color: hsla(225, 100%, 94%, 0.801);
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.container{
+  
+  
+  align-items: center;
+  padding:100px;
+  margin-left:500px;
+}
+
+
+Input{
+   width:300px;
+   height: 30px;
+   font-size:18px;
+  
+}
+
+button{
+   width:100px;
+   height:35px;
+   background-color: blue;
+   border: none;
+   border-radius:6px;
+   color: white;
+   margin: 10px;
+  position: absolute;
+  top: 210px;
+  right:550px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
